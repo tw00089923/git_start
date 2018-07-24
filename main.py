@@ -6,6 +6,7 @@ import cProfile
 def build_square_numbers(n):
     print("hi")
     for i in range(n):
+        print("hello")
         yield i*i
 
 if __name__ == '__main__':
